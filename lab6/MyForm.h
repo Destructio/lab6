@@ -104,7 +104,7 @@ namespace lab6 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(130, 13);
 			this->label3->TabIndex = 4;
-			this->label3->Text = L"5. Лабораторная работа";
+			this->label3->Text = L"6. Лабораторная работа";
 			// 
 			// button2
 			// 
@@ -167,5 +167,6 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 }
 private: System::Void listBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 }
+
 };
 }

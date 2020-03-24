@@ -24,7 +24,8 @@ void output(double* arr, int n, ListBox^ l)
 {
 	l -> Items->Clear();
 	if (n == 0) l->Items->Add("Массив пуст");
-	else {
+	else 
+	{
 		for (int i = 0; i < n; i++)
 		{
 			l->Items->Add(arr[i].ToString());
