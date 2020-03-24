@@ -18,7 +18,7 @@ double* createNewArray(double* array, int& n)
 	if (!(pos == neg))
 	{
 		if (pos > neg) {
-			newArr = new double[n];
+			newArr = new double[pos];
 			for (int i = 0; i < n; i++)
 			{
 				if (*(array + i) >= 0) {
@@ -29,7 +29,7 @@ double* createNewArray(double* array, int& n)
 		}
 		else 
 		{
-			newArr = new double[n];
+			newArr = new double[neg];
 			for (int i = 0; i < n; i++)
 			{
 				if (*(array+i) < 0) {
